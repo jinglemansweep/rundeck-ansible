@@ -9,6 +9,7 @@ USER root
 RUN apt-get update -y && \
     apt-get install -y pipx
 
+COPY ./rootfs/ /
 
 USER rundeck
 
