@@ -1,4 +1,0 @@
-[[template]]
-    src         = "${REMCO_TEMPLATE_DIR}/rundeck-config-mail.properties"
-    dst         = "${RUNDECK_HOME}/server/config/rundeck-config-mail.properties"
-    mode        = "0644"
